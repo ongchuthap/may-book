@@ -4,7 +4,7 @@ Cập nhật lần cuối: 12 tháng 11 năm 2026. [English](privacy-policy.md)
 
 Mây Book là ứng dụng đọc sách EPUB có trợ lý đọc AI tuỳ chọn, do một nhà phát triển độc lập làm ra. Chính sách này cho biết ứng dụng làm gì với dữ liệu của bạn.
 
-Tóm tắt: nhà phát triển không chạy máy chủ nào và không nhận gì từ ứng dụng. Sách, ghi chú và các cuộc trò chuyện của bạn nằm trên thiết bị của bạn và trong iCloud của chính bạn. Văn bản chỉ được gửi tới nhà cung cấp AI hoặc dịch vụ tìm kiếm web khi bạn đã thiết lập dịch vụ đó bằng khoá của chính mình và đã cho phép trong ứng dụng.
+Tóm tắt: nhà phát triển không chạy máy chủ nào và không nhận gì từ ứng dụng. Sách, ghi chú và các cuộc trò chuyện của bạn nằm trên thiết bị của bạn và trong iCloud của chính bạn. Với model trên thiết bị của Apple, AI chạy ngay trên thiết bị và những gì bạn hỏi không rời khỏi máy. Văn bản chỉ được gửi tới nhà cung cấp AI hoặc dịch vụ tìm kiếm web khi bạn đã thiết lập dịch vụ đó bằng khoá của chính mình và đã cho phép trong ứng dụng.
 
 ## Nhà phát triển thu thập gì
 
@@ -13,10 +13,14 @@ Không gì cả. Ứng dụng không có tài khoản, không có phân tích, q
 ## Dữ liệu của bạn nằm ở đâu
 
 - **Trên thiết bị**, trong vùng lưu trữ riêng của ứng dụng: sách (file EPUB), vị trí đọc, highlight, ghi chú, thuật ngữ, các cuộc trò chuyện với AI, trí nhớ và bản tóm lược sách của AI, bản dịch và cài đặt.
-- **Trong iCloud của bạn**, khi bật đồng bộ iCloud: file sách nằm trong thư mục của ứng dụng trên iCloud Drive, phần còn lại nằm trong các file thuộc vùng chứa iCloud của ứng dụng, để các thiết bị khác của bạn nhận được. Apple giữ chúng dưới Tài khoản Apple của bạn; nhà phát triển không xem được.
+- **Trong iCloud của bạn**, khi bật đồng bộ iCloud: file sách nằm trong iCloud Drive › Mây Book, phần còn lại nằm trong các file thuộc vùng chứa iCloud của ứng dụng, để các thiết bị khác của bạn nhận được. Apple giữ chúng dưới Tài khoản Apple của bạn; nhà phát triển không xem được.
 - **Khoá API** được giữ trong iCloud Keychain (được mã hoá, chỉ đồng bộ giữa các thiết bị của bạn). Khoá không bao giờ được ghi vào file trên iCloud Drive và không bao giờ được gửi cho nhà phát triển.
 - **Spotlight và widget**: tên sách được đưa vào Spotlight trên thiết bị của bạn; highlight và ghi chú chỉ khi bạn bật tuỳ chọn đó, trên từng thiết bị. Widget hiện sách đang đọc và thời gian đọc từ một bản sao giữ trên thiết bị.
 - **Phông chữ, đọc to và dịch nhanh** chạy trên thiết bị: phông chữ đi kèm ứng dụng, đọc to dùng giọng đọc của hệ thống, còn dịch từ ngắn dùng bản dịch trên máy của Apple trước.
+
+## Model trên thiết bị (Apple Intelligence)
+
+Trên iPhone hoặc Mac đã bật Apple Intelligence, ứng dụng có thể dùng model ngôn ngữ trên thiết bị của Apple, không cần khoá hay tài khoản. Với model này, câu hỏi của bạn, các đoạn sách và ghi chú gửi kèm, cùng câu trả lời, được framework Foundation Models của Apple xử lý ngay trên thiết bị: không phần nào được gửi tới Apple, nhà phát triển hay bất kỳ ai khác, nên ứng dụng không cần xin phép. Model này nhỏ nên hợp với câu hỏi ngắn về những gì bạn đọc. Bản tóm lược sách, tóm tắt cuộc trò chuyện cho trí nhớ của AI và dịch song ngữ cả chương cần một model đám mây: chúng chỉ chạy khi bạn đang dùng model của một nhà cung cấp đám mây, không bao giờ khi đang dùng model trên thiết bị, nên với model này không gì được gửi tới nhà cung cấp nào. Khi AI của model trên thiết bị tìm kiếm web hoặc mở trang web, các yêu cầu đó rời khỏi thiết bị và vẫn xin phép bạn như mọi yêu cầu khác (xem "Những gì được gửi tới dịch vụ tìm kiếm và các trang web").
 
 ## Những gì được gửi tới nhà cung cấp AI bạn chọn
 
@@ -48,7 +52,7 @@ Khi công cụ web của AI đang bật và bạn đã thiết lập một dịc
 
 - Xoá một cuốn sách trong ứng dụng sẽ xoá highlight, ghi chú, các cuộc trò chuyện, trí nhớ và bản tóm lược của sách đó, trên mọi thiết bị có đồng bộ.
 - Trong phần trí nhớ của một cuốn sách, bạn có thể sửa hoặc xoá những gì AI nhớ; từng cuộc trò chuyện đều xoá được.
-- Để xoá bản sao trên iCloud, hãy xoá thư mục của ứng dụng trong iCloud Drive và dữ liệu của ứng dụng trong phần dung lượng iCloud của Tài khoản Apple.
+- Để xoá bản sao trên iCloud, hãy xoá thư mục Mây Book trong iCloud Drive và dữ liệu của ứng dụng trong phần dung lượng iCloud của Tài khoản Apple.
 - Xoá ứng dụng sẽ xoá mọi thứ ứng dụng đã lưu trên thiết bị, trừ khoá vẫn nằm trong iCloud Keychain: hãy xoá khoá trong Cài đặt › Nhà cung cấp AI trước khi xoá ứng dụng.
 - Nhà phát triển không giữ dữ liệu nào về bạn. Nếu bạn gửi email cho nhà phát triển (hỗ trợ, hoặc "Báo lỗi câu trả lời này"), email chỉ được dùng để xem xét báo cáo và trả lời bạn, và được xoá khi xong việc.
 

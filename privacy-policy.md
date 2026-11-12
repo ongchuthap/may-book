@@ -4,7 +4,7 @@ Last updated: 12 November 2026. [Tiếng Việt](privacy-policy.vi.md)
 
 Mây Book is an EPUB reader with an optional AI reading assistant, made by an independent developer. This policy says what the app does with your data.
 
-In short: the developer runs no server and receives nothing from the app. Your books, notes and conversations stay on your devices and in your own iCloud. Text goes to an AI provider or a web search service only when you have set one up with your own key and allowed it in the app.
+In short: the developer runs no server and receives nothing from the app. Your books, notes and conversations stay on your devices and in your own iCloud. With Apple's on-device model, the AI runs on your device and nothing you ask it leaves the device. Text goes to an AI provider or a web search service only when you have set one up with your own key and allowed it in the app.
 
 ## What the developer collects
 
@@ -13,10 +13,14 @@ Nothing. The app has no account, no analytics, no advertising, no tracking and n
 ## Where your data is kept
 
 - **On your device**, in the app's own storage: your books (EPUB files), reading positions, highlights, notes, glossary terms, AI conversations, the AI's memory and briefs of your books, translations and settings.
-- **In your iCloud**, when iCloud sync is on: book files in the app's folder in iCloud Drive, and the rest in files in the app's iCloud container, so your other devices get them. Apple keeps them under your Apple Account; the developer cannot see them.
+- **In your iCloud**, when iCloud sync is on: book files in iCloud Drive › Mây Book, and the rest in files in the app's iCloud container, so your other devices get them. Apple keeps them under your Apple Account; the developer cannot see them.
 - **API keys** are kept in iCloud Keychain (encrypted, synced only between your own devices). They are never written to iCloud Drive files and never sent to the developer.
 - **Spotlight and widgets**: book titles are indexed in Spotlight on your device; highlights and notes only when you turn that on, on each device. Widgets show the current book and reading time from a copy kept on the device.
 - **Fonts, read aloud and quick translation** work on the device: the fonts are part of the app, read aloud uses the system's voices, and short translations use Apple's on-device translation first.
+
+## The on-device model (Apple Intelligence)
+
+On an iPhone or Mac with Apple Intelligence turned on, the app can use Apple's on-device language model, without a key or an account. With it, your questions, the passages and notes sent with them, and its answers are processed by Apple's Foundation Models framework on your device: nothing of it is sent to Apple, to the developer or to anyone else, so the app asks no permission for it. It is small, so it answers short questions about what you read. Book briefs, conversation summaries for the AI's memory and bilingual translation of chapters need a cloud model: they run only while a cloud provider's model is the one you use, never while the on-device model is in use, so with it nothing goes to a provider. When the on-device model's AI uses web search or opens web pages, those requests leave the device and ask your permission like any other (see "What goes to web search and web pages").
 
 ## What goes to the AI provider you choose
 
@@ -48,7 +52,7 @@ When the AI's web tools are on and you set up a search service (Tavily, Brave Se
 
 - Deleting a book in the app deletes its highlights, notes, conversations, memory and brief, on every device that syncs.
 - In a book's memory view you can edit or clear what the AI remembers; conversations can be deleted one by one.
-- To remove the iCloud copy, delete the app's folder in iCloud Drive and the app's data under your Apple Account's iCloud storage settings.
+- To remove the iCloud copy, delete the Mây Book folder in iCloud Drive and the app's data under your Apple Account's iCloud storage settings.
 - Deleting the app deletes everything it stored on the device, except keys, which stay in iCloud Keychain: remove them in Settings › AI Providers before you delete the app.
 - The developer keeps no data about you. If you email the developer (support, or "Report a problem with this answer"), the email is used only to look into your report and answer you, and is deleted once that is done.
 

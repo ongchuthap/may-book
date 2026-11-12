@@ -14,7 +14,7 @@ Mây Book is an EPUB reader for iPhone with an optional AI reading assistant tha
 - **How do I turn on the AI?** Settings › AI Providers: choose OpenRouter, DeepSeek, OpenAI or a custom OpenAI-compatible server, paste your API key, and pick a model. Before anything is sent, the app asks your permission on a screen that lists what goes to that provider.
 - **How do I stop sending data to a provider?** Settings › Privacy › AI Data Sharing: stop sharing with it. See the [privacy policy](privacy-policy.md).
 - **My books do not appear on my other device.** Sync uses your iCloud Drive: sign in to iCloud with the same Apple Account on both devices, turn on iCloud Drive, and keep iCloud Sync on in Settings.
-- **How do I delete my data?** Delete books in the app; delete the app's folder in iCloud Drive; remove keys in Settings › AI Providers; then delete the app.
+- **How do I delete my data?** Delete books in the app; delete the Mây Book folder in iCloud Drive; remove keys in Settings › AI Providers; then delete the app.
 
 ---
 
@@ -32,4 +32,4 @@ Mây Book là ứng dụng đọc sách EPUB cho iPhone, có trợ lý đọc AI
 - **Bật AI thế nào?** Cài đặt › Nhà cung cấp AI: chọn OpenRouter, DeepSeek, OpenAI hoặc máy chủ tương thích OpenAI, dán khoá API và chọn mô hình. Trước khi gửi bất cứ thứ gì, ứng dụng xin phép bạn trên một màn hình liệt kê những gì được gửi tới nhà cung cấp đó.
 - **Ngừng gửi dữ liệu cho một nhà cung cấp thế nào?** Cài đặt › Riêng tư › Chia sẻ dữ liệu với AI: ngừng chia sẻ với nơi đó. Xem [chính sách quyền riêng tư](privacy-policy.vi.md).
 - **Sách không hiện trên thiết bị khác.** Đồng bộ dùng iCloud Drive của bạn: đăng nhập iCloud bằng cùng một Tài khoản Apple trên cả hai thiết bị, bật iCloud Drive, và để Đồng bộ iCloud bật trong Cài đặt.
-- **Xoá dữ liệu thế nào?** Xoá sách trong ứng dụng; xoá thư mục của ứng dụng trong iCloud Drive; xoá khoá trong Cài đặt › Nhà cung cấp AI; rồi xoá ứng dụng.
+- **Xoá dữ liệu thế nào?** Xoá sách trong ứng dụng; xoá thư mục Mây Book trong iCloud Drive; xoá khoá trong Cài đặt › Nhà cung cấp AI; rồi xoá ứng dụng.
